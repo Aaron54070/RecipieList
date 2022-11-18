@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             xmlns:local="clr-namespace:RecipieList"  
+             x:Class="RecipieList.MainPage">
+
+    <ScrollView>
+        <StackLayout Margin="20,35,20,20">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <Image Source="Logo" WidthRequest="250" HeightRequest="100"></Image>
+                <Label Margin="0,0,0,10" Text="Recepie List" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+                <Entry x:Name="txtItemId" Placeholder="Id Update and Delete"></Entry>
+                <Entry x:Name="txtTitle" Placeholder="Enter RecipieList Title"></Entry>
+                <Entry x:Name="txtaother" Placeholder="Enter Aother Name"></Entry>
+                <Entry x:Name="txtin" Placeholder="Enter Ingredients"></Entry>
+                <Entry x:Name="txSteps" Placeholder="Enter Steps"></Entry>
+                <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnAdd" WidthRequest="175" Text="Add" Clicked="BtnAdd_Clicked" />
+                    <Button x:Name="btnRead" WidthRequest="175" Text="Read" Clicked="BtnRead_Clicked" />
+                </StackLayout>
+                <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <Button x:Name="btnUpdate" WidthRequest="175" Text="Update" Clicked="BtnUpdate_Clicked"/>
+                    <Button x:Name="btnDelete" WidthRequest="175" Text="Delete" Clicked="BtnDelete_Clicked" />
+                </StackLayout>
+                <CollectionView x:Name="lstItems">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="Black">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding ItemID} "
+                               FontSize="Large" Grid.Row="0" TextColor="Black"/>
+                                    <Label Text="Title of RecipieList:" Grid.Row="1"/>
+                                    <Label Text="{Binding Title}"
+                               FontSize="Medium" Grid.Row="2" TextColor="Black"/>
+                                    <Label Text="By:" Grid.Row="1" Grid.Column="3"/>
+                                    <Label Text="{Binding aother}"
+                               TextColor="Black"
+                               FontSize="Medium" Grid.Row="2" Grid.Column="3"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
+

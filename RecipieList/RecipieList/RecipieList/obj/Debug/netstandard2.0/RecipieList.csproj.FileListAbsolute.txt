@@ -1,0 +1,15 @@
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\RecipieList.csproj.AssemblyReference.cache
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\RecipieList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\RecipieList.AssemblyInfoInputs.cache
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\RecipieList.AssemblyInfo.cs
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\RecipieList.csproj.CoreCompileInputs.cache
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\bin\Debug\netstandard2.0\RecipieList.deps.json
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\bin\Debug\netstandard2.0\RecipieList.dll
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\bin\Debug\netstandard2.0\RecipieList.pdb
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\RecipieList.dll
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\refint\RecipieList.dll
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\RecipieList.pdb
+C:\Users\aaron\source\repos\RecipieList\RecipieList\RecipieList\obj\Debug\netstandard2.0\ref\RecipieList.dll
